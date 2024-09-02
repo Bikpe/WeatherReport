@@ -1,5 +1,7 @@
 # Weather Data System
 
+![Architectural_Diagram](arc.jpg)
+
 ## Overview
 
 This project is a Spring Boot application that ingests weather data from the Weatherstack API, processes and stores it

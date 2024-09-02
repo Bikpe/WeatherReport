@@ -1,0 +1,32 @@
+# IntelliJ IDEA specific files
+/.idea/
+/*.iml
+/out/
+
+# Maven specific files
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logs/
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Java specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot specific files
+/spring.log
+
+# Lombok generated files
+lombok.config
+
+# Other
+/shelf/
+/workspace.xml

@@ -1,6 +1,6 @@
 # Weather Data System
 
-![Architectural_Diagram]([img_![img_1.png](img_1.png)2.png])
+![Architectural_Diagram](arc.jpg)
 
 
 ## Overview

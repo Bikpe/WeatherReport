@@ -1,6 +1,7 @@
 # Weather Data System
 
 ![Architectural_Diagram](img.png)
+![Sequence_Diagram]
 
 ## Overview
 
@@ -48,7 +49,7 @@ models to predict future weather conditions or analyze patterns related to clima
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/phoenixtype/WeatherReport.git
+git clone https://github.com/Bikpe/WeatherReport.git
 cd WeatherReport
 ```
 

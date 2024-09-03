@@ -55,12 +55,12 @@ public class DataIngestionController {
         dataIngestionService.backfillDataGaps(lastValidTimestamp);
     }
 
-    @Scheduled(initialDelay = ZERO_DELAY, fixedRate = 60000)
+    @Scheduled(initialDelay = ZERO_DELAY, fixedRate = ONE_HOUR)
     public void scheduledFetchAndIngestWeatherData() {
         fetchAndIngestWeatherData();
     }
 
-    @Scheduled(initialDelay = ZERO_DELAY, fixedRate = 60000)
+    @Scheduled(initialDelay = ZERO_DELAY, fixedRate = ONE_HOUR)
     public void scheduledDataDelivery() {
         List<WeatherData> dataIncrements = dataDeliveryService.fetchDataIncrements();
         dataDeliveryService.sendDataToS3Bucket(dataIncrements);

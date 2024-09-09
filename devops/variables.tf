@@ -2,9 +2,8 @@ variable "bucket_name" {
   description = "bucket name"
 }
 
-variable "acl" {
-  description = "bucket acl"
-  default = "private"
+variable "aws_iam_role" {
+  description = "bucket IAM role"
 }
 
 variable "versioning" {
@@ -31,3 +30,9 @@ variable "public_access" {
   description = "enable/disable public access"
   default = false
 }
+
+
+variable "aws_iam_policy" {
+  type = string
+}
+
